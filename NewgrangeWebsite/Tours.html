@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Newgrange - Homepage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="stylesheet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<!-- collapsible content script -->
+	<script>
+		$('.panel-collapse').on('show.bs.collapse', function () {
+			$(this).siblings('.panel-heading').addClass('active');
+		});
+
+		$('.panel-collapse').on('hide.bs.collapse', function () {
+			$(this).siblings('.panel-heading').removeClass('active');
+		});
+	</script>
+	<noscript>Sorry, your browser does not support JavaScript!</noscript>
+</head>
+
+
+<body>
+<nav class="navbar navbar-expand-sm navbar-light fixed-top" style="background-color: white;">
+    <img src = "images/logo.png" alt = "logo" id="logo" span style ="margin-left: 30px"/>
+    <button class ="navbar-toggler" data-toggle="collapse" data-target="#expandme">
+        <span class="navbar-toggler-icon" ></span>
+    </button>
+
+    <div class = "collapse navbar-collapse justify-content-end" id="expandme">
+				<span class="navbar-nav">
+				<a class= "nav-item nav-link active" href="Newgrange.html" >Newgrange <span class="sr-only"></span></a>
+				<a class= "nav-item nav-link" href="Knowth.html" >Knowth</a>
+				<a class= "nav-item nav-link" href="Dowth.html" >Dowth</a>
+
+				<li class="nav-item dropdown">
+					<a class= "nav-link dropdown-toggle" href="Plan.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Plan</a>
+
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+						<a class="dropdown-item" href="#">Tickets information</a>
+						<a class="dropdown-item" href="#">Tours</a>
+						<a class="dropdown-item" href="#">Location and Transportation</a>
+						<a class="dropdown-item" href="#">Itineraries</a>
+						<a class="dropdown-item" href="#">Tools and Tips</a>
+					</div>
+				</li>
+
+				<li class="nav-item dropdown">
+					<a class= "nav-link dropdown-toggle" href="Community.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Community</a>
+
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+						<a class="dropdown-item" href="#">Photos</a>
+						<a class="dropdown-item" href="#">Comments</a>
+						<a class="dropdown-item" href="#">Donate</a>
+				</li>
+
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit>" span style ="margin-right: 50px"> Buy Tickets</button></span>
+    </div>
+</nav>
+
+	<div class="container">
+		<h2> Tours </h2>
+			<p> There are two types of tours we provide, which are half-day tours and day tours. Schools and communities are welcome to book our service and tour itineraries can be arranged if required. For any specific service, we encourage you to call +853 000 000 0000 or email nomuchemail@newgrange.ie. </p>
+
+		<!-- COLLAPSIBLE CONTENT -->
+		<div class="wrapper center-block">
+		  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+			<div class="panel panel-default">
+			  <div class="panel-heading active" role="tab" id="headingOne">
+				<h2 class="panel-title" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+				  <a>
+					Overview
+				  </a>
+				</h2>
+			  </div>
+			  <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+				<div class="panel-body">
+					<p>
+						Join us to learn the history of Newgrange, Dowth and Knowth! Our half-day and day tours take you into the principal monuments in the World Heritage Property in Ireland. 
+						All these sites have been built for over 5000 years and they attract a great amount of tourists to visit every year. 
+						<br>
+						As the official authority for Newgrange and Knowth, we will introduce you to walk around Newgrange, Dowth and Knowth with the best guide. 
+						The chamber visiting is a must when visiting us. Exploring these buildings with a mysterious vibe is a great adventure that should not be missed.
+						<br>
+						Our guides will lead you through an informative day with the history of our sites along with some fascinating tales that you will never know by yourself.
+						Our tours will be both educational and entertaining. One thing for sure is that all of our staff is professional and qualified. 
+						<br>
+						You will never regret joining our tours!
+						It will be an unbelievable “time travel” when we dig into history by exploring Newgrange! 
+						We treasure your experience and time, therefore, we will depart at 8:00 am with a full and fruitful schedule and return to Dublin by 1:00 pm or 6:00 pm depends on your tour.
+						<br>
+						As for the full-day tour, we aim to provide you with more than knowledge. You will visit the local community in Drogheda to not only learn what forms this city but also enjoy the historical and warm atmosphere of the city.
+						<br>
+						They will be the tours that offer historical enrichment to you once you join them. We are all looking forward to seeing you. 
+					</p>
+				</div>
+			  </div>
+			</div>
+			<div class="panel panel-default">
+			  <div class="panel-heading" role="tab" id="headingTwo">
+				<h2 class="panel-title" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+				  <a class="collapsed">
+					Half-Day Tour Itinerary
+				  </a>
+				</h2>
+			  </div>
+			  <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+				<div class="panel-body">
+					<p>
+						08;00 AM: Depart Dublin</br>
+						We meet at the front entrance of Trinity College Dublin. You will board our coach with a bottle of water and a booklet of the itinerary of the tour. You can meet your fellow traveller and relax when you get on our coach. However, we will not wait for any late customer and a refund is not possible in this case. Therefore, we suggest you arrive 15 minutes earlier and pay attention to any phone call.</br></br>
+
+						08:45 AM: The visitor Centre Exhibition</br>
+						This is the starting point for the day. In the exhibition, we will introduce you to history, myth and folklore. Here, we will also remind our tourists about some notices and prohibitions for Newgrange, Dowth and Knowth. If you do not obey any prohibitions and rules as mentioned, you will face a fine, penalty or sentence for prison. We appreciate our tourists, and we hope that we can enjoy the tour together and also help the maintenance of these lovely sites.</br></br>
+
+						10:00 AM: The Dowth</br>
+						Seeing is believing, therefore, after learning the history in the exhibition, we will walk across the River Boyne to Dowth. Having watched the X-ray map in the exhibition, tourists will now resonate with the site better now. They will be amazed and wonder what the reason behind Dowth is. We are happy to take pictures for our tourists and answer any question.</br></br>
+			
+						11:00 AM: Newgrange</br>
+						This is one of the main sites of our tour because of the well-preserved heritage and tourists are allowed to enter the chamber to feel the wisdom of our precedence. It is not a secret that the chamber’s design is meticulous and divine that the passageway will be lighted up by a window in the morning during the winter solstice period. We are very delighted if we share our passion and knowledge with our tourists, and it will be a highlight of the tour.</br></br>
+
+						Noon: Knowth</br>
+						You will not be disappointed even though you visit Newgrange before Knowth. There are 21 tombs in Knowth and all of them create a mysterious feeling for us and you might wonder what every tomb was for. We will guide you to explore them and encourage you to imagine. We ensure that you will love Knowth as much as Newgrange!</br></br>
+
+						1:00 PM Depart Drogheda to Dublin</br>
+						You will be back in Dublin by 14:00.
+					</p>
+				</div>
+			  </div>
+			</div>
+			<div class="panel panel-default">
+			  <div class="panel-heading" role="tab" id="headingThree">
+				<h2 class="panel-title" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+				  <a class="collapsed">
+					Day Tours Itinerary
+				  </a>
+				</h2>
+			  </div>
+			  <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+				<div class="panel-body">
+					<p>
+						08;00 AM: Depart Dublin</br>
+						We meet at the front entrance of Trinity College Dublin. You will board our coach with a bottle of water and a booklet of the itinerary of the tour. You can meet your fellow traveller and relax when you get on the coach. However, we will not wait for any late customer and a refund is not possible in this case. Therefore, we suggest you arrive 15 minutes earlier and pay attention to any phone call.</br></br>
+
+						08:45 AM: The visitor Centre Exhibition</br>
+						This is the starting point for the day. In the exhibition, we will introduce you to history, myth and folklore. Here, we will also remind our tourists about some notices and prohibitions for Newgrange, Dowth and Knowth. If you do not obey any prohibitions and rules as mentioned, you will face a fine, penalty or sentence for prison. We appreciate our tourists, and we hope that we can enjoy the tour together and also help the maintenance of these lovely sites.</br></br>
+
+						10:00 AM: The Dowth</br>
+						Seeing is believing, therefore, after learning the history in the exhibition, we will walk across the River Boyne to Dowth. Having watched the X-ray map in the exhibition, tourists will now resonate with the site better now. They will be amazed and wonder what the reason behind Dowth is. We are happy to take pictures for our tourists and answer any question.</br></br>
+
+						11:00 AM: Newgrange</br>
+						This is one of the main sites of our tour because of the well-preserved heritage and tourists are allowed to enter the chamber to feel the wisdom of our precedence. It is not a secret that the chamber’s design is meticulous and divine that the passageway will be lighted up by a window in the morning during the winter solstice period. We are very delighted if we share our passion and knowledge with our tourists, and it will be a highlight of the tour.</br></br>
+
+						Noon: Knowth</br>
+						You will not be disappointed even though you visit Newgrange before Knowth. There are 21 tombs in Knowth and all of them create a mysterious feeling for us and you might wonder what every tomb was for. We will guide you to explore them and encourage you to imagine. We ensure that you will love Knowth as much as Newgrange!</br></br>
+
+						1:00 PM Lunch</br>
+						We know that you must be starving after visiting all these sites, therefore, we will bring you back to Drogheda and you can pick any restaurant if you want in Drogheda. You have to feed yourself well because we will show you around Slane Castle after lunch.</br></br>
+
+						3:00 PM Slane Castle</br>
+						Slane Castle is an 18th-century estate adjacent to the River Boyne. We are sure that you would love to take as many pictures as you can, therefore we will not let you down!</br></br>
+
+						4:00 PM Listoke Distillery & Gin School</br>
+						We are sure that you will always want some souvenir to take home, therefore we will bring you to this gin school to learn about the first and only interactive gin experience in Ireland. Not even gaining knowledge about gin, you can also bring a bottle of gin home.</br></br>
+
+						5:00 PM Depart Drogheda to Dublin</br>
+						After the long day, you can now board our comfortable coach heading to Dublin.</br></br>
+					</p>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		<footer>
+			<ul id = firstFooterColumn>
+				<p>Culture</p>
+				<li><a href="Newgrange.html" >Newgrange</a></li>
+				<li><a href="Knowth.html" >Knowth</a></li>
+				<li><a href="Dowth.html" >Dowth</a></li>
+				<li><a href="Plan.html" >Plan a visit</a></li>
+			</ul>
+			<ul id = secondFooterColumn>
+				<p>Media</p>
+				<li><a href="Community.html" >Community</a></li>
+				<li><a href="Map.html" >Site Map</a></li>
+				<li><a href="About us.html" >About us</a></li>
+				<li><a href="Covid" >Covid-19 Information</a></li>
+			</ul>
+			<p>IDM GROUP 2 - 2021</p>
+		</footer>
+	</div>
+</body>
+</html>

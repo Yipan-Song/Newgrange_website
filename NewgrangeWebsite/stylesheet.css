@@ -1,0 +1,81 @@
+body, html {
+    font-size:20px;
+    width: 100%;
+    color: black;
+    font-family:Raleway;
+    background-color: #FFFFCC;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#logo{
+    width:300px;
+    height:100px;
+    float: left;
+}
+
+.dropdown-menu{
+    background-color: white;
+}
+
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    /*transition: all 0.5s ease-in-out;*/
+
+}
+
+.intro{
+    margin-top: 150px;
+
+}
+
+.textContent{
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.mediaContent{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.footer{
+    list-style-type: none;
+}
+.rounded {
+    padding-left: 20px;
+    clear:right;
+    width:800px;
+    height:400px;
+    float:right;
+    border-radius: 30px;
+}
+.text-justify{
+    line-height: 30px;
+}
+#tickets{
+    position:relative;
+    top:30px;
+}
+.img{
+    border-radius: 30px;
+}
+button{
+    font-size: 20px;
+    height:45px;
+    width:150px;
+    background-color: #32CD32;
+    text-align: center;
+    text-decoration: none;
+    border: 8px solid;
+    border-color: #90EE90 #008000 #008000 #90EE90;
+    outline: 0;
+    border-radius: 30px;
+}
+button:hover{
+    color:white;
+    border-color: #90EE90 #008000 #008000 #90EE90;
+    background-color:#7FFF00;
+}
